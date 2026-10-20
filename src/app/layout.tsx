@@ -28,6 +28,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             marginTop: "64px",
             padding: "24px",
             boxSizing: "border-box",
+            minHeight: "calc(100vh - 64px)"
           }}
         >
           {children}
